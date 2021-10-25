@@ -18,6 +18,12 @@
             height: 50px;
             float: left;
         }
+        .logo2{
+            background-color: violet;
+            width: 100px;
+            height: 50px;
+            float: left;
+        }
         .info{
             background-color: green;
             float:right;
@@ -25,29 +31,19 @@
         .text{
            background-color:pink;
         }
-        .tlf{
-            width: 70px;
-            height: 50px;
-            background-color: red;
-            float:left;
-        }
         .email{   
-            width: 70px;
+            width: 140px;
             height: 50px;
             background-color: blue;
-            float: left;
+            display: inline-block;
+            vertical-align: top;
         }
         .skype{
             width: 70px;
             height: 50px;
             background-color: orange;
-            float: left;
-        }
-        .mob{
-            width: 70px;
-            height: 50px;
-            background-color: silver;
-            float: left;
+            display: inline-block;
+            vertical-align: top;
         }
         .clearfix{
             clear: both;
@@ -56,12 +52,14 @@
 </head>
 <body>
     <div class="container1">
-        <div class="logo">1</div>
+        <div class="wrap">
+            <div class="logo">0</div>  
+            <div class="logo2">1</div>
+        </div>
+        
         <div class="info">
-                <div class="tlf">2</div><!--
-             --><div class="email">3</div><!--
-             --><div class="skype">4</div><!--
-             --><div class="mob">5</div>
+                <div class="email">2</div><!--
+             --><div class="skype">3</div>
         </div>
         <div class="clearfix"></div>
     </div> 
